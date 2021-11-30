@@ -8,7 +8,6 @@
 </template>
 
 <script>
-// (width - 1600) / 2
 export default {
   data: () => ({ windowWidth: window.innerWidth }),
   watch: {
