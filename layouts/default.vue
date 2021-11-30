@@ -39,11 +39,33 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;0,700;1,200&display=swap');
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Ubuntu';
+
+  font-family: 'Poppins';
+  color: #fff;
+}
+
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Chrome */
+}
+
+h1, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
 }
 
 #__layout {
@@ -55,5 +77,9 @@ main {
   position: absolute;
   inset: 0;
   width: 1600px;
+}
+
+h1 {
+  text-transform: uppercase;
 }
 </style>
