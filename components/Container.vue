@@ -12,7 +12,9 @@
       </template>
     </InfoBlock>
 
-    <InfoBlock marginTop="200">
+    <div class="planet mercury"></div>
+
+    <InfoBlock marginTop="166">
       <template v-slot:h1>
         <h1>Mercury</h1>
       </template>
@@ -21,6 +23,8 @@
         <p><i>Mercury</i> — the smallest planet in our solar system and closest to the <i>Sun</i> — is only slightly larger than <i>Earth's Moon</i>. <i>Mercury</i> is the fastest planet, zipping around the <i>Sun</i> every 88 <i>Earth</i> days.</p>
       </template>
     </InfoBlock>
+
+    <div class="planet venus"></div>
 
     <InfoBlock marginTop="438">
       <template v-slot:h1>
@@ -32,6 +36,8 @@
       </template>
     </InfoBlock>
 
+    <div class="planet earth"></div>
+
     <InfoBlock marginTop="229">
       <template v-slot:h1>
         <h1>Earth</h1>
@@ -41,6 +47,8 @@
         <p><i>Earth</i> — our home planet — is the only place we know of so far that’s inhabited by living things. It's also the only planet in our solar system with liquid water on the surface.</p>
       </template>
     </InfoBlock>
+
+    <div class="planet mars"></div>
 
     <InfoBlock marginTop="424">
       <template v-slot:h1>
@@ -52,6 +60,8 @@
       </template>
     </InfoBlock>
 
+    <div class="planet jupiter"></div>
+
     <InfoBlock marginTop="396">
       <template v-slot:h1>
         <h1>Jupiter</h1>
@@ -61,6 +71,8 @@
         <p><i>Jupiter</i> is more than twice as massive than the other planets of our solar system combined. The giant planet's Great Red spot is a centuries-old storm bigger than <i>Earth</i>.</p>
       </template>
     </InfoBlock>
+
+    <div class="planet saturn"></div>
 
     <InfoBlock marginTop="463">
       <template v-slot:h1>
@@ -72,6 +84,8 @@
       </template>
     </InfoBlock>
 
+    <div class="planet uranus"></div>
+
     <InfoBlock marginTop="427">
       <template v-slot:h1>
         <h1>Uranus</h1>
@@ -81,6 +95,8 @@
         <p><i>Uranus</i> — seventh planet from the <i>Sun</i> — rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes <i>Uranus</i> appear to spin on its side.</p>
       </template>
     </InfoBlock>
+
+    <div class="planet neptune"></div>
 
     <InfoBlock marginTop="438">
       <template v-slot:h1>
@@ -103,7 +119,7 @@
 }
 
 .solar-system-info {
-  position: absolute;
+  position: absolute !important;
   top: 52px;
   right: 91px;
   background-color: #13111c;
@@ -112,5 +128,52 @@
 
 .white-space {
   height: 404px;
+}
+
+.planet {
+  position: absolute;
+
+  width: 336px;
+  height: 336px;
+}
+
+.mercury {
+  margin-top: -25px;
+  left: 132px;
+}
+
+.venus {
+  margin-top: 229px;
+  left: 856px;
+}
+
+.earth {
+  margin-top: 259px;
+  left: 113px;
+}
+
+.mars {
+  margin-top: 229px;
+  left: 585px;
+}
+
+.jupiter {
+  margin-top: 229px;
+  right: 149px;
+}
+
+.saturn {
+  margin-top: 229px;
+  right: 581px;
+}
+
+.uranus {
+  margin-top: 229px;
+  left: 153px;
+}
+
+.neptune {
+  margin-top: 229px;
+  right: 570px;
 }
 </style>

@@ -15,9 +15,16 @@ export default {
 
 <style lang="scss" scoped>
 .info-block {
+  position: relative;
   width: 734px;
 
   margin: 0 auto;
+
+  z-index: 2;
+}
+
+h1 {
+  margin-bottom: 25px;
 }
 
 p {
