@@ -88,4 +88,40 @@ h1 {
   font-weight: 700;
   text-transform: uppercase;
 }
+
+.planet {
+  background-size: cover;
+}
+
+.mercury {
+  background-image: url('@/static/mercury.png');
+}
+
+.venus {
+  background-image: url('@/static/venus.png');
+}
+
+.earth {
+  background-image: url('@/static/earth.png');
+}
+
+.mars {
+  background-image: url('@/static/mars.png');
+}
+
+.jupiter {
+  background-image: url('@/static/jupiter.png');
+}
+
+.saturn {
+  background-image: url('@/static/saturn.png');
+}
+
+.uranus {
+  background-image: url('@/static/uranus.png');
+}
+
+.neptune {
+  background-image: url('@/static/neptune.png');
+}
 </style>

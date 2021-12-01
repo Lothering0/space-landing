@@ -8,7 +8,17 @@
     <div class="ring ring-6"></div>
     <div class="ring ring-7"></div>
     <div class="ring ring-8"></div>
+
     <div class="sun"></div>
+
+    <div class="planet mercury"></div>
+    <div class="planet venus"></div>
+    <div class="planet earth"></div>
+    <div class="planet mars"></div>
+    <div class="planet jupiter"></div>
+    <div class="planet saturn"></div>
+    <div class="planet uranus"></div>
+    <div class="planet neptune"></div>
   </div> 
 </template>
 
@@ -30,9 +40,11 @@
   );
 }
 
-.sun, .ring {
+.sun, .ring, .planet {
   position: absolute;
+}
 
+.sun, .ring {
   top: 50%;
   left: 50%;
 
@@ -89,5 +101,50 @@
 .ring-8 {
   width: 2038px;
   height: 2038px;
+}
+
+.planet {
+  width: 102px;
+  height: 102px;
+}
+
+.mercury {
+  top: 1169px;
+  left: 1319px;
+}
+
+.venus {
+  top: 537px;
+  left: 1133px;
+}
+
+.earth {
+  top: 879px;
+  left: 1542px;
+}
+
+.mars {
+  top: 553px;
+  left: 1486px;
+}
+
+.jupiter {
+  top: 307px;
+  left: 1310px;
+}
+
+.saturn {
+  top: 1426px;
+  left: 1690px;
+}
+
+.uranus {
+  top: 1091px;
+  left: 1904px;
+}
+
+.neptune {
+  top: 683px;
+  left: 1960px;
 }
 </style>
