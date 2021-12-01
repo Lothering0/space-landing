@@ -6,6 +6,8 @@
         <button>Start</button>
       </div>
     </div>
+
+    <Container />
   </div>
 </template>
 
@@ -30,11 +32,6 @@
     padding-top: 196px;
     padding-left: 172px;
   }
-}
-
-h1 {
-  font-size: 68px;
-  font-weight: 700;
 }
 
 button {
