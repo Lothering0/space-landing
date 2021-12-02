@@ -39,6 +39,12 @@
     </InfoBlock>
 
     <div class="curve earth"></div>
+    <Moon
+      name="Moon"
+      top="3479px"
+      left="131px"
+      backgroundColor="#1d1f2f"
+    />
     <div class="planet earth"></div>
 
     <InfoBlock marginTop="229">
@@ -52,6 +58,16 @@
     </InfoBlock>
 
     <div class="curve mars"></div>
+    <Moon
+      name="Phobos"
+      top="4446px"
+      left="990px"
+    />
+    <Moon
+      name="Deimos"
+      top="4505px"
+      left="1258px"
+    />
     <div class="planet mars"></div>
 
     <InfoBlock marginTop="424">
@@ -65,6 +81,36 @@
     </InfoBlock>
 
     <div class="curve jupiter"></div>
+    <Moon
+      name="Europa"
+      top="4752px"
+      left="1357px"
+      backgroundColor="#121222"
+    />
+    <Moon
+      name="Ganymede"
+      top="4995px"
+      left="1259px"
+      backgroundColor="#11101f"
+    />
+    <Moon
+      name="Io"
+      top="5591px"
+      left="1226px"
+      backgroundColor="#11101f"
+    />
+    <Moon
+      name="Callisto"
+      top="5869px"
+      left="1258px"
+      backgroundColor="#11101f"
+    />
+    <Moon
+      name="Valetudo"
+      top="6153px"
+      left="1307px"
+      backgroundColor="#11101f"
+    />
     <div class="planet jupiter"></div>
 
     <InfoBlock marginTop="396">
@@ -78,6 +124,24 @@
     </InfoBlock>
 
     <div class="curve saturn"></div>
+    <Moon
+      name="Dione"
+      top="6043px"
+      left="123px"
+      backgroundColor="#11101f"
+    />
+    <Moon
+      name="Mimas"
+      top="6084px"
+      left="293px"
+      backgroundColor="#11101f"
+    />
+    <Moon
+      name="Titan"
+      top="6102px"
+      left="1063px"
+      backgroundColor="#11101f"
+    />
     <div class="planet saturn"></div>
 
     <InfoBlock marginTop="463">
@@ -91,6 +155,36 @@
     </InfoBlock>
 
     <div class="curve uranus"></div>
+    <Moon
+      name="Umbriel"
+      top="6385px"
+      left="155px"
+      backgroundColor="#11101f"
+    />
+    <Moon
+      name="Titania"
+      top="6646px"
+      left="219px"
+      backgroundColor="#11101f"
+    />
+    <Moon
+      name="Oberon"
+      top="7255px"
+      left="229px"
+      backgroundColor="#11101f"
+    />
+    <Moon
+      name="Miranda"
+      top="7502px"
+      left="166px"
+      backgroundColor="#11101f"
+    />
+    <Moon
+      name="Puck"
+      top="7744px"
+      left="106px"
+      backgroundColor="#11101f"
+    />
     <div class="planet uranus"></div>
 
     <InfoBlock marginTop="427">
@@ -104,6 +198,30 @@
     </InfoBlock>
 
     <div class="curve neptune"></div>
+    <Moon
+      name="Proteus"
+      top="7911px"
+      left="243px"
+      backgroundColor="#11101f"
+    />
+    <Moon
+      name="Triton"
+      top="7863px"
+      left="1103px"
+      backgroundColor="#11101f"
+    />
+    <Moon
+      name="Hippocamp"
+      top="7897px"
+      left="1241px"
+      backgroundColor="#11101f"
+    />
+    <Moon
+      name="Nereid"
+      top="7952px"
+      left="1457px"
+      backgroundColor="#11101f"
+    />
     <div class="planet neptune"></div>
 
     <InfoBlock marginTop="438">
@@ -167,7 +285,7 @@
 }
 
 .curve.earth {
-  top: 2867px;
+  top: 3062px;
 }
 
 .curve.mars {
