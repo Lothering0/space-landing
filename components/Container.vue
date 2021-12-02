@@ -12,6 +12,7 @@
       </template>
     </InfoBlock>
 
+    <div class="curve mercury"></div>
     <div class="planet mercury"></div>
 
     <InfoBlock marginTop="166">
@@ -24,6 +25,7 @@
       </template>
     </InfoBlock>
 
+    <div class="curve venus"></div>
     <div class="planet venus"></div>
 
     <InfoBlock marginTop="438">
@@ -36,6 +38,7 @@
       </template>
     </InfoBlock>
 
+    <div class="curve earth"></div>
     <div class="planet earth"></div>
 
     <InfoBlock marginTop="229">
@@ -48,6 +51,7 @@
       </template>
     </InfoBlock>
 
+    <div class="curve mars"></div>
     <div class="planet mars"></div>
 
     <InfoBlock marginTop="424">
@@ -60,6 +64,7 @@
       </template>
     </InfoBlock>
 
+    <div class="curve jupiter"></div>
     <div class="planet jupiter"></div>
 
     <InfoBlock marginTop="396">
@@ -72,6 +77,7 @@
       </template>
     </InfoBlock>
 
+    <div class="curve saturn"></div>
     <div class="planet saturn"></div>
 
     <InfoBlock marginTop="463">
@@ -84,6 +90,7 @@
       </template>
     </InfoBlock>
 
+    <div class="curve uranus"></div>
     <div class="planet uranus"></div>
 
     <InfoBlock marginTop="427">
@@ -96,6 +103,7 @@
       </template>
     </InfoBlock>
 
+    <div class="curve neptune"></div>
     <div class="planet neptune"></div>
 
     <InfoBlock marginTop="438">
@@ -130,6 +138,63 @@
   height: 404px;
 }
 
+.curve {
+  position: absolute;
+
+  width: 100%;
+  height: 200px;
+
+  background-image: url('@/static/curve-horizontal.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.curve.mercury {
+  margin-top: 41px;
+}
+
+.curve.venus {
+  margin-top: 221px;
+  transform: rotate(180deg);
+}
+
+.curve.earth, .curve.jupiter, .curve.uranus {
+  height: 2093px;
+  width: 281px;
+
+  background-image: url('@/static/curve-vertical.svg');
+  background-position: center;
+}
+
+.curve.earth {
+  top: 2867px;
+}
+
+.curve.mars {
+  margin-top: 333px;
+}
+
+.curve.jupiter {
+  top: 4489px;
+  right: 0;
+
+  transform: rotate(180deg);
+}
+
+.curve.saturn {
+  top: 6002px;
+
+  transform: rotate(180deg);
+}
+
+.curve.uranus {
+  top: 5958px;
+}
+
+.curve.neptune {
+  margin-top: 375px;
+}
+
 .planet {
   position: absolute;
 
@@ -137,42 +202,42 @@
   height: 336px;
 }
 
-.mercury {
+.planet.mercury {
   margin-top: -25px;
   left: 132px;
 }
 
-.venus {
+.planet.venus {
   margin-top: 229px;
   left: 856px;
 }
 
-.earth {
+.planet.earth {
   margin-top: 259px;
   left: 113px;
 }
 
-.mars {
+.planet.mars {
   margin-top: 229px;
   left: 585px;
 }
 
-.jupiter {
+.planet.jupiter {
   margin-top: 229px;
   right: 149px;
 }
 
-.saturn {
+.planet.saturn {
   margin-top: 229px;
   right: 581px;
 }
 
-.uranus {
+.planet.uranus {
   margin-top: 229px;
   left: 153px;
 }
 
-.neptune {
+.planet.neptune {
   margin-top: 229px;
   right: 570px;
 }
