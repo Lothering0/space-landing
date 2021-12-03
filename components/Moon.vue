@@ -19,6 +19,8 @@ export default {
 <style>
 .moon {
   position: absolute;
+
+  z-index: 2;
 }
 
 .image {

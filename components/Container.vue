@@ -97,19 +97,19 @@
       name="Io"
       top="5591px"
       left="1226px"
-      backgroundColor="#11101f"
+      backgroundColor="#0f0e1d"
     />
     <Moon
       name="Callisto"
       top="5869px"
       left="1258px"
-      backgroundColor="#11101f"
+      backgroundColor="#0f0e1d"
     />
     <Moon
       name="Valetudo"
       top="6153px"
       left="1307px"
-      backgroundColor="#11101f"
+      backgroundColor="#0f0e1d"
     />
     <div class="planet jupiter"></div>
 
@@ -128,19 +128,17 @@
       name="Dione"
       top="6043px"
       left="123px"
-      backgroundColor="#11101f"
+      backgroundColor="#0f0e1d"
     />
     <Moon
       name="Mimas"
       top="6084px"
       left="293px"
-      backgroundColor="#11101f"
     />
     <Moon
       name="Titan"
       top="6102px"
       left="1063px"
-      backgroundColor="#11101f"
     />
     <div class="planet saturn"></div>
 
@@ -159,31 +157,31 @@
       name="Umbriel"
       top="6385px"
       left="155px"
-      backgroundColor="#11101f"
+      backgroundColor="#0f0e1d"
     />
     <Moon
       name="Titania"
       top="6646px"
       left="219px"
-      backgroundColor="#11101f"
+      backgroundColor="#0f0e1d"
     />
     <Moon
       name="Oberon"
       top="7255px"
       left="229px"
-      backgroundColor="#11101f"
+      backgroundColor="#0f0e1d"
     />
     <Moon
       name="Miranda"
       top="7502px"
       left="166px"
-      backgroundColor="#11101f"
+      backgroundColor="#0f0e1d"
     />
     <Moon
       name="Puck"
       top="7744px"
       left="106px"
-      backgroundColor="#11101f"
+      backgroundColor="#0f0e1d"
     />
     <div class="planet uranus"></div>
 
@@ -202,25 +200,21 @@
       name="Proteus"
       top="7911px"
       left="243px"
-      backgroundColor="#11101f"
     />
     <Moon
       name="Triton"
       top="7863px"
       left="1103px"
-      backgroundColor="#11101f"
     />
     <Moon
       name="Hippocamp"
       top="7897px"
       left="1241px"
-      backgroundColor="#11101f"
     />
     <Moon
       name="Nereid"
       top="7952px"
       left="1457px"
-      backgroundColor="#11101f"
     />
     <div class="planet neptune"></div>
 
@@ -280,7 +274,7 @@
   height: 2093px;
   width: 281px;
 
-  background-image: url('@/static/curve-vertical.svg');
+  background-image: url('@/static/curve-vertical-1.svg');
   background-position: center;
 }
 
@@ -293,10 +287,13 @@
 }
 
 .curve.jupiter {
-  top: 4489px;
+  width: 317px;
+  height: 2199px;
+
+  top: 4467px;
   right: 0;
 
-  transform: rotate(180deg);
+  background-image: url('@/static/curve-vertical-2.svg');
 }
 
 .curve.saturn {
@@ -307,6 +304,10 @@
 
 .curve.uranus {
   top: 5958px;
+  width: 321px;
+  height: 2209px;
+
+  background-image: url('@/static/curve-vertical-3.svg');
 }
 
 .curve.neptune {
