@@ -3,7 +3,7 @@
     <div class="block">
       <div class="header">
         <h1>Explore the space</h1>
-        <button>Start</button>
+        <Button />
       </div>
     </div>
 
@@ -31,29 +31,7 @@
 
     padding-top: 196px;
     padding-left: 172px;
-  }
-}
-
-button {
-  width: 261px;
-  height: 104px;
-
-  margin-top: 136px;
-
-  background: transparent;
-  border: 3px solid #fff;
-  border-radius: 7px;
-
-  color: #fff;
-  font-size: 58px;
-  font-weight: 200;
-
-  transition: 0.6s;
-
-  &:hover {
-    background: #fff;
-    color: #403c63;
-    cursor: pointer;
+    padding-bottom: 55px;
   }
 }
 </style>
