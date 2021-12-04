@@ -38,13 +38,26 @@
     rgba(196, 196, 196, 0) 100%,
     rgba(255, 255, 255, 0) 100%
   );
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  animation: 2s linear 0s infinite alternate shining;
+}
+
+@keyframes shining {
+  from {
+    background-size: 75% 75%;
+  }
+  to {
+    background-size: 100% 100%;
+  }
 }
 
 .sun, .ring, .planet {
   position: absolute;
 }
 
-.sun, .ring {
+.ring {
   top: 50%;
   left: 50%;
 
@@ -55,7 +68,21 @@
   width: 512px;
   height: 512px;
 
+  top: 50%;
+  left: 50%;
+
   background-image: url('@/static/sun.png');
+
+  animation: 25s linear 0s infinite rotating;
+}
+
+@keyframes rotating {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 
 .ring {

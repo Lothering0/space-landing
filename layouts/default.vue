@@ -55,6 +55,7 @@ body {
 }
 
 * {
+  user-select: none;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
@@ -91,6 +92,17 @@ h1 {
 
 .planet {
   background-size: cover;
+
+  animation: 5s linear 0s alternate infinite rotating;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(12deg);
+  }
 }
 
 .mercury {

@@ -390,6 +390,10 @@
   display: flex;
 
   background-image: radial-gradient(50% 50% at 50% 50%, rgba(255, 217, 96, 0.1) 0%, rgba(255, 217, 96, 0) 100%);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  animation: 2s linear 0s infinite alternate shining;
 
   .stars-image {
     width: 142px;
@@ -398,6 +402,15 @@
     background-size: cover;
 
     margin: auto;
+  }
+}
+
+@keyframes shining {
+  from {
+    background-size: 75% 75%;
+  }
+  to {
+    background-size: 100% 100%;
   }
 }
 
