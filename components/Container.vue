@@ -2,6 +2,10 @@
   <div class="container">
     <SolarSystem />
 
+    <div class="stars" id="stars-1">
+      <div class="stars-image"></div>
+    </div>
+
     <InfoBlock class="solar-system-info">
       <template v-slot:h1>
         <h1>Sun</h1>
@@ -14,6 +18,10 @@
 
     <div class="curve mercury"></div>
     <div class="planet mercury"></div>
+
+    <div class="stars" id="stars-2">
+      <div class="stars-image"></div>
+    </div>
 
     <InfoBlock marginTop="166">
       <template v-slot:h1>
@@ -37,6 +45,10 @@
         <p><i>Venus</i> spins slowly in the opposite direction from most planets. A thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system.</p>
       </template>
     </InfoBlock>
+
+    <div class="stars" id="stars-3">
+      <div class="stars-image"></div>
+    </div>
 
     <div class="curve earth"></div>
     <Moon
@@ -123,6 +135,10 @@
       </template>
     </InfoBlock>
 
+    <div class="stars" id="stars-4">
+      <div class="stars-image"></div>
+    </div>
+
     <div class="curve saturn"></div>
     <Moon
       name="Dione"
@@ -184,6 +200,10 @@
       backgroundColor="#0f0e1d"
     />
     <div class="planet uranus"></div>
+
+    <div class="stars" id="stars-5">
+      <div class="stars-image"></div>
+    </div>
 
     <InfoBlock marginTop="427">
       <template v-slot:h1>
@@ -256,7 +276,7 @@
   width: 100%;
   height: 200px;
 
-  background-image: url('@/static/curve-horizontal.svg');
+  background-image: url('@/static/curves/curve-horizontal.svg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -274,7 +294,7 @@
   height: 2093px;
   width: 281px;
 
-  background-image: url('@/static/curve-vertical-1.svg');
+  background-image: url('@/static/curves/curve-vertical-1.svg');
   background-position: center;
 }
 
@@ -293,7 +313,7 @@
   top: 4467px;
   right: 0;
 
-  background-image: url('@/static/curve-vertical-2.svg');
+  background-image: url('@/static/curves/curve-vertical-2.svg');
 }
 
 .curve.saturn {
@@ -307,7 +327,7 @@
   width: 321px;
   height: 2209px;
 
-  background-image: url('@/static/curve-vertical-3.svg');
+  background-image: url('@/static/curves/curve-vertical-3.svg');
 }
 
 .curve.neptune {
@@ -359,5 +379,69 @@
 .planet.neptune {
   margin-top: 229px;
   right: 570px;
+}
+
+.stars {
+  position: absolute;
+
+  width: 389px;
+  height: 389px;
+
+  display: flex;
+
+  background-image: radial-gradient(50% 50% at 50% 50%, rgba(255, 217, 96, 0.1) 0%, rgba(255, 217, 96, 0) 100%);
+
+  .stars-image {
+    width: 142px;
+    height: 142px;
+
+    background-size: cover;
+
+    margin: auto;
+  }
+}
+
+#stars-1 {
+  top: 1693px;
+  right: 81px;
+
+  .stars-image {
+    background-image: url('@/static/stars/stars-1.png');
+  }
+}
+
+#stars-2 {
+  top: 2508px;
+
+  .stars-image {
+    background-image: url('@/static/stars/stars-2.png');
+  }
+}
+
+#stars-3 {
+  top: 3518px;
+  right: 10px;
+
+  .stars-image {
+    background-image: url('@/static/stars/shining.png');
+  }
+}
+
+#stars-4 {
+  top: 5568px;
+  left: -19px;
+
+  .stars-image {
+    background-image: url('@/static/stars/shooting-star.png');
+  }
+}
+
+#stars-5 {
+  top: 6747px;
+  right: 92px;
+
+  .stars-image {
+    background-image: url('@/static/stars/glare.png');
+  }
 }
 </style>

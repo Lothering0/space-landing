@@ -45,13 +45,13 @@ button {
   top: -40px;
   left: -48px;
 
-  background-image: url('@/static/constellation-1.png');
+  background-image: url('@/static/stars/constellation-1.png');
 }
 
 #constellation-2 {
   top: 53px;
   right: -41px;
 
-  background-image: url('@/static/constellation-2.png');
+  background-image: url('@/static/stars/constellation-2.png');
 }
 </style>

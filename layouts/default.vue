@@ -94,34 +94,34 @@ h1 {
 }
 
 .mercury {
-  background-image: url('@/static/mercury.png');
+  background-image: url('@/static/planets/mercury.png');
 }
 
 .venus {
-  background-image: url('@/static/venus.png');
+  background-image: url('@/static/planets/venus.png');
 }
 
 .earth {
-  background-image: url('@/static/earth.png');
+  background-image: url('@/static/planets/earth.png');
 }
 
 .mars {
-  background-image: url('@/static/mars.png');
+  background-image: url('@/static/planets/mars.png');
 }
 
 .jupiter {
-  background-image: url('@/static/jupiter.png');
+  background-image: url('@/static/planets/jupiter.png');
 }
 
 .saturn {
-  background-image: url('@/static/saturn.png');
+  background-image: url('@/static/planets/saturn.png');
 }
 
 .uranus {
-  background-image: url('@/static/uranus.png');
+  background-image: url('@/static/planets/uranus.png');
 }
 
 .neptune {
-  background-image: url('@/static/neptune.png');
+  background-image: url('@/static/planets/neptune.png');
 }
 </style>
