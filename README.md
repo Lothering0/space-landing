@@ -1,15 +1,15 @@
 # Space Landing
 
-This is application powered by Nuxt.js. Space Landing includes information about planets of solar system.
+This is application powered by [Nuxt.js](https://nuxtjs.com). Space Landing includes information about planets of solar system.
 
 ## Technologies
 
 Project is created with:
 
-* Nuxt.js
-* SCSS
-* VueScrollReveal
-* VueScrollTo
+* [Nuxt.js](https://nuxtjs.com)
+* [SCSS](https://sass-lang.com)
+* [ScrollReveal](https://scrollrevealjs.org) ([vue-scroll-reveal](https://www.npmjs.com/package/vue-scroll-reveal))
+* [vue-scrollto](https://www.npmjs.com/package/vue-scrollto)
 
 ## Build Setup
 
