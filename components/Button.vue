@@ -1,14 +1,14 @@
 <template>
-  <button>
-    <a href="#start" v-scroll-to="{
-      el: '#start',
-      offset: -51
-    }">
+  <a href="#start" v-scroll-to="{
+    el: '#start',
+    offset: -51
+  }">
+    <button>
       <div class="constellation" id="constellation-1"></div>
       Start
       <div class="constellation" id="constellation-2"></div>
-    </a>
-  </button>
+    </button>
+  </a>
 </template>
 
 <style lang="scss" scoped>
