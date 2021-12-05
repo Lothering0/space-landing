@@ -25,6 +25,10 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    {
+      src: '~/plugins/vue-scroll-reveal',
+      ssr: false
+    }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -36,6 +40,19 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    ['vue-scrollto/nuxt', {
+      container: "body",
+      duration: 500,
+      easing: "ease",
+      offset: -200,
+      force: true,
+      cancelable: true,
+      onStart: false,
+      onDone: false,
+      onCancel: false,
+      x: false,
+      y: true
+    }],
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

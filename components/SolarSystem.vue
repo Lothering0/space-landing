@@ -9,16 +9,64 @@
     <div class="ring ring-7"></div>
     <div class="ring ring-8"></div>
 
-    <div class="sun"></div>
+    <a
+      class="sun"
+      href="#start"
+      v-scroll-to="{
+        el: '#start',
+        offset: -51
+      }"
+      title="Sun"
+    ></a>
 
-    <div class="planet mercury"></div>
-    <div class="planet venus"></div>
-    <div class="planet earth"></div>
-    <div class="planet mars"></div>
-    <div class="planet jupiter"></div>
-    <div class="planet saturn"></div>
-    <div class="planet uranus"></div>
-    <div class="planet neptune"></div>
+    <a
+      class="planet mercury"
+      href="#mercury"
+      v-scroll-to="'#mercury'"
+      title="Mercury"
+    ></a>
+    <a
+      class="planet venus"
+      href="#venus"
+      v-scroll-to="'#venus'"
+      title="Venus"
+    ></a>
+    <a
+      class="planet earth"
+      href="#earth"
+      v-scroll-to="'#earth'"
+      title="Earth"
+    ></a>
+    <a
+      class="planet mars"
+      href="#mars"
+      v-scroll-to="'#mars'"
+      title="Mars"
+    ></a>
+    <a
+      class="planet jupiter"
+      href="#jupiter"
+      v-scroll-to="'#jupiter'"
+      title="Jupiter"
+    ></a>
+    <a
+      class="planet saturn"
+      href="#saturn"
+      v-scroll-to="'#saturn'"
+      title="Saturn"
+    ></a>
+    <a
+      class="planet uranus"
+      href="#uranus"
+      v-scroll-to="'#uranus'"
+      title="Uranus"
+    ></a>
+    <a
+      class="planet neptune"
+      href="#neptune"
+      v-scroll-to="'#neptune'"
+      title="Neptune"
+    ></a>
   </div> 
 </template>
 
@@ -133,6 +181,16 @@
 .planet {
   width: 102px;
   height: 102px;
+
+  transition: 0.1s;
+
+  &:hover {
+    width: 107px;
+    height: 107px;
+
+    margin-top: -2.5px;
+    margin-left: -2.5px;
+  }
 }
 
 .mercury {

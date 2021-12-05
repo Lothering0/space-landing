@@ -6,7 +6,7 @@
       <div class="stars-image"></div>
     </div>
 
-    <InfoBlock class="solar-system-info">
+    <InfoBlock class="solar-system-info" id="start">
       <template v-slot:h1>
         <h1>Sun</h1>
       </template>
@@ -23,7 +23,7 @@
       <div class="stars-image"></div>
     </div>
 
-    <InfoBlock marginTop="166">
+    <InfoBlock marginTop="166" id="mercury">
       <template v-slot:h1>
         <h1>Mercury</h1>
       </template>
@@ -36,7 +36,7 @@
     <div class="curve venus"></div>
     <div class="planet venus"></div>
 
-    <InfoBlock marginTop="438">
+    <InfoBlock marginTop="438" id="venus">
       <template v-slot:h1>
         <h1>Venus</h1>
       </template>
@@ -59,7 +59,7 @@
     />
     <div class="planet earth"></div>
 
-    <InfoBlock marginTop="229">
+    <InfoBlock marginTop="229" id="earth">
       <template v-slot:h1>
         <h1>Earth</h1>
       </template>
@@ -82,7 +82,7 @@
     />
     <div class="planet mars"></div>
 
-    <InfoBlock marginTop="424">
+    <InfoBlock marginTop="424" id="mars">
       <template v-slot:h1>
         <h1>Mars</h1>
       </template>
@@ -125,7 +125,7 @@
     />
     <div class="planet jupiter"></div>
 
-    <InfoBlock marginTop="396">
+    <InfoBlock marginTop="396" id="jupiter">
       <template v-slot:h1>
         <h1>Jupiter</h1>
       </template>
@@ -158,7 +158,7 @@
     />
     <div class="planet saturn"></div>
 
-    <InfoBlock marginTop="463">
+    <InfoBlock marginTop="463" id="saturn">
       <template v-slot:h1>
         <h1>Saturn</h1>
       </template>
@@ -205,7 +205,7 @@
       <div class="stars-image"></div>
     </div>
 
-    <InfoBlock marginTop="427">
+    <InfoBlock marginTop="427" id="uranus">
       <template v-slot:h1>
         <h1>Uranus</h1>
       </template>
@@ -238,7 +238,7 @@
     />
     <div class="planet neptune"></div>
 
-    <InfoBlock marginTop="438">
+    <InfoBlock marginTop="438" id="neptune">
       <template v-slot:h1>
         <h1>Neptune</h1>
       </template>

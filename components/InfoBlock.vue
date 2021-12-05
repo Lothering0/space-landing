@@ -1,5 +1,9 @@
 <template>
-  <div class="info-block" :style="{marginTop: marginTop + 'px'}">
+  <div
+    class="info-block"
+    :style="{ marginTop: marginTop + 'px' }"
+    v-scroll-reveal="scrollRevealConfig"
+  >
     <slot name="h1"></slot>
     <slot name="p"></slot>
   </div>
@@ -7,6 +11,11 @@
 
 <script>
 export default {
+  data: () => ({
+    scrollRevealConfig: {
+      duration: 1000
+    }
+  }),
   props: {
     marginTop: String
   }

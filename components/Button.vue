@@ -1,8 +1,13 @@
 <template>
   <button>
-    <div class="constellation" id="constellation-1"></div>
-    Start
-    <div class="constellation" id="constellation-2"></div>
+    <a href="#start" v-scroll-to="{
+      el: '#start',
+      offset: -51
+    }">
+      <div class="constellation" id="constellation-1"></div>
+      Start
+      <div class="constellation" id="constellation-2"></div>
+    </a>
   </button>
 </template>
 
@@ -30,6 +35,11 @@ button {
     border: 5px solid #fff;
     cursor: pointer;
   }
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 .constellation {
