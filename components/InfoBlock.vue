@@ -13,7 +13,8 @@
 export default {
   data: () => ({
     scrollRevealConfig: {
-      duration: 1000
+      duration: 1000,
+      mobile: false
     }
   }),
   props: {
