@@ -1,5 +1,7 @@
 # Space Landing
 
+[<sup>Go to page on Heroku</sup>](https://space-landing.herokuapp.com/)<sup>, </sup>[<sup>see project on Figma</sup>](https://www.figma.com/file/0LbiPIAULHK9JyNA0wfZdo/Space?node-id=0%3A1)
+
 This is application powered by [Nuxt.js](https://nuxtjs.com). Space Landing includes information about planets of solar system.
 
 ## Technologies
